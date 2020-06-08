@@ -6,8 +6,7 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <a href="<?php echo $base_path; ?>" class="btn btn-primary ml-auto" role="button">Rooms List</a>
-                <a href="<?php echo $base_path . "/add.php"; ?>" class="btn btn-secondary" role="button">New Room</a>
+                <a href="<?php echo $base_path; ?>" class="btn btn-secondary" role="button">Home</a>
             </div>
         </nav>
     </header>
