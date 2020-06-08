@@ -39,6 +39,3 @@ foreach ($managers_to_add as $manager) {
         echo "Eccezione: {$e -> getMessage()}";
     }   
 }
-
-var_dump($dipendenti);
-var_dump($managers);
