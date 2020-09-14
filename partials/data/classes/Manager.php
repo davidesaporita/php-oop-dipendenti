@@ -12,10 +12,10 @@ class Manager extends Dipendente {
     // Constructor
     public function __construct($_first_name, $_last_name) {
         parent::__construct($_first_name, $_last_name);
-        $this -> role = "manager";
-        $this -> benefit_group = "Super";
-        $this -> private_jet = true;
-        $this -> employees_ids = [0, 5, 11, 54];
+        $this->role = "manager";
+        $this->benefit_group = "Super";
+        $this->private_jet = true;
+        $this->employees_ids = [0, 5, 11, 54];
     }
 
 }

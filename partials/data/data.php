@@ -28,14 +28,14 @@ foreach ($employees_to_add as $employee) {
     try {
         $dipendenti[] = new Dipendente(...$employee);
     } catch (Exception $e) {
-        echo "Eccezione: {$e -> getMessage()}";
-    }   
+        echo "Eccezione: {$e->getMessage()}";
+    }
 }
 
 foreach ($managers_to_add as $manager) {
     try {
         $managers[] = new Manager(...$manager);
     } catch (Exception $e) {
-        echo "Eccezione: {$e -> getMessage()}";
+        echo "Eccezione: {$e->getMessage()}";
     }   
 }
