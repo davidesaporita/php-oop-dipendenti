@@ -12,8 +12,8 @@ include_once __DIR__ . '/partials/templates/header.php';
                 <table class="table">
                     <thead>
                         <tr>
-                            <th scope="col">Nome</th>
                             <th scope="col">Cognome</th>
+                            <th scope="col">Nome</th>
                             <th scope="col">Data Assunzione</th>
                             <th scope="col">Ruolo</th>
                             <th scope="col">Office</th>
@@ -23,8 +23,8 @@ include_once __DIR__ . '/partials/templates/header.php';
                     <tbody>                       
                   <?php foreach($managers as $manager){ ?>
                         <tr>
-                            <th scope="row"><?php echo $manager->first_name; ?></th>
                             <th scope="row"><?php echo $manager->last_name; ?></th>
+                            <th scope="row"><?php echo $manager->first_name; ?></th>
                             <td><?php echo $manager->hire_date; ?></td>
                             <td><?php echo $manager->role; ?></td>
                             <td><?php echo $manager->office; ?></td>
@@ -42,8 +42,8 @@ include_once __DIR__ . '/partials/templates/header.php';
                 <table class="table">
                     <thead>
                         <tr>
-                            <th scope="col">Nome</th>
                             <th scope="col">Cognome</th>
+                            <th scope="col">Nome</th>
                             <th scope="col">Data Assunzione</th>
                             <th scope="col">Ruolo</th>
                             <th scope="col">Office</th>
@@ -51,14 +51,14 @@ include_once __DIR__ . '/partials/templates/header.php';
                         </tr>
                     </thead>
                     <tbody>                       
-                  <?php foreach($dipendenti as $dipendenti){ ?>
+                  <?php foreach($dipendenti as $dipendente){ ?>
                         <tr>
-                            <th scope="row"><?php echo $dipendenti->first_name; ?></th>
-                            <th scope="row"><?php echo $dipendenti->last_name; ?></th>
-                            <td><?php echo $dipendenti->hire_date; ?></td>
-                            <td><?php echo $dipendenti->role; ?></td>
-                            <td><?php echo $dipendenti->office; ?></td>
-                            <td><?php echo $dipendenti->status; ?></td>
+                            <th scope="row"><?php echo $dipendente->last_name; ?></th>
+                            <th scope="row"><?php echo $dipendente->first_name; ?></th>
+                            <td><?php echo $dipendente->hire_date; ?></td>
+                            <td><?php echo $dipendente->role; ?></td>
+                            <td><?php echo $dipendente->office; ?></td>
+                            <td><?php echo $dipendente->status; ?></td>
                         </tr>
                   <?php } ?>
                     </tbody>
